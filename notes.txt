@@ -3,3 +3,11 @@ we created the file and then I'm going to create the remote
 repo on my github
 
 I can make changes on github but PLEASE DO NOT
+
+echo "# newrepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/cmtakara/newrepo.git
+git push -u origin main
